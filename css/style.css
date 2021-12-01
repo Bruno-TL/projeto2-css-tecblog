@@ -1,0 +1,124 @@
+/*Limpando formatações padrões*/
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body {
+    font-size: 1em;
+    font-family: "Trebuchet Ms", Helvetica, sans-serif;
+    background: #e6e6e6;
+}
+
+/*Layot*/
+
+#cabecalho{
+    background: #f7b600;
+    text-align: center;
+    padding: 15px;
+
+}
+#menu, #logo{
+    padding: 10px;
+}
+
+/*menu*/
+a{
+    text-decoration: none; 
+}
+a:link, a:visited{
+    color:#f7b600;
+}
+
+a:hover{
+    text-decoration: underline;
+
+}
+
+#cabecalho a:link, #cabecalho a:visited{
+    color: white;
+    padding: 8px 12px;
+}
+
+#cabecalho a:hover{
+    color: #f7b600;
+    background: white;
+    text-decoration: none;
+}
+
+/*Formatações em geral*/
+
+h1{
+    font-size: 2.5em;
+    color: rgb(0, 0, 0);
+}
+
+.branco{
+    color: white;
+}
+
+h2{
+    color: #f7b600;
+}
+
+h3{
+    color: #565656;
+    background: #ccc;
+    padding: 5px;
+}
+
+.data-postagem{
+    font-size: 0.8em;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+    display: block;
+}
+
+/*main*/
+#principal{
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+    
+}
+
+#lateral{
+    margin-top: 10px;
+    
+}
+
+#postagem{
+    width:  660px;
+    float: left;
+    margin-bottom: 20px;
+    
+}
+.postagem{
+    padding: 20px;
+    background: white;
+    margin-top: 10px;
+}
+
+#lateral{
+    width: 240px;
+    float: right;
+}
+
+#rodape{
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background: #ccc;
+}
+
+.conteudo-lateral{
+    background: white;
+    padding: 10px;
+    margin-bottom: 20px;
+} 
+
+.texto-lateral{
+    font-size: 0.8em;
+    padding: 5px;
+}
